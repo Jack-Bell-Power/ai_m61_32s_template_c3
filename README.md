@@ -1,5 +1,11 @@
 # helloworld
 
+You don't need to type the long paramator of chip and board when you want to build the ai m61 32s which is defalut supported.
+
+If you type make at line it will works first build the c3 file then link the static.a file then finish the make and you get the firmware which you can use on BL616/BL618 by default.
+
+If you type make flash COMX=xxx # xxx is your com name you can flash the firmware to the board which is using by defalut.
+
 ## Support CHIP
 
 | CHIP              | Remark |
