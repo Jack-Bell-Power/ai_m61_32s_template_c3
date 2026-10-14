@@ -10,7 +10,7 @@
   // Authors, optionally with email.
   "authors": [ "Jack Bell <jxakbel@foxmail.com>" ],
   // Version using semantic versioning.
-  "version": "0.1.2",
+  "version": "0.1.3",
   // Sources compiled for all targets.
   "sources": [ "src/**" ],
   // Test sources compiled for all targets.
