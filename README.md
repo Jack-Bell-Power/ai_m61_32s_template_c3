@@ -4,7 +4,7 @@ This project uses C3C 0.8.5_1 to compile the C3 source code into a static librar
 
 Make sure you have C3C 0.8.5_1 installed and properly configured before building the project.
 
-# ai_m61_32s_template
+## ai_m61_32s_template
 
 You don't need to specify the CHIP and BOARD parameters when building for the AI-Thinker M61-32S, as the default configuration is already supported.
 
