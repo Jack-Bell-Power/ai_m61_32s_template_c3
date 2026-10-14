@@ -1,10 +1,22 @@
-# helloworld
+# C3C Version Requirements
 
-You don't need to type the long paramator of chip and board when you want to build the ai m61 32s which is defalut supported.
+This project uses C3C 0.8.5_1 to compile the C3 source code into a static library (librun.a), which is then linked with the Bouffalo SDK to build the final firmware.
 
-If you type make at line it will works first build the c3 file then link the static.a file then finish the make and you get the firmware which you can use on BL616/BL618 by default.
+Make sure you have C3C 0.8.5_1 installed and properly configured before building the project.
 
-If you type make flash COMX=xxx # xxx is your com name you can flash the firmware to the board which is using by defalut.
+# ai_m61_32s_template
+
+You don't need to specify the CHIP and BOARD parameters when building for the AI-Thinker M61-32S, as the default configuration is already supported.
+
+Run make to compile the C3 source code, generate the static library (librun.a), link it with the Bouffalo SDK, and build the final firmware.
+
+By default, the generated firmware targets BL616/BL618-compatible configurations.
+
+To flash the firmware to your board, run:
+
+make flash COMX=xxx
+
+Replace xxx with your board's serial port name.
 
 ## Support CHIP
 
